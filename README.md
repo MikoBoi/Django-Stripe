@@ -1,7 +1,7 @@
 # Django-Stripe
 
 **Модули:**
-  Django 4.1,
+  Django 4.2.6,
   Stripe 10.7.0
 
 Логин и пароль от админки:
