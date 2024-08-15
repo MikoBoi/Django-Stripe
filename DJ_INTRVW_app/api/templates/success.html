@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Success Page{% endblock %}
+{% block content %}
+
+  <section class="flex space-x-2">
+    <p>Good! Session ID is: {{ SESSION_ID }}</p>
+    <a href="{% url 'items' %}" class="text-indigo-600 font-bold underline underline-offset-1">Go to the Items List</a>
+  </section>
+
+{% endblock %}
