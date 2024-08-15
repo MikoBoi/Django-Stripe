@@ -8,4 +8,4 @@
   admin
   QWEasd111
 
-Проект не требует особой конфигурации.
+В settings.py необходимо задать ключи: STRIPE_PUBLIC_KEY, STRIPE_SECRET_KEY
